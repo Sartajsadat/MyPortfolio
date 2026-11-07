@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sartaj Sadat — Software Engineer & Full-Stack Developer</title>
+    <meta name="description" content="Sartaj Sadat is a Software Engineer, Full-Stack Developer and University Lecturer building enterprise and government software with Java, Spring Boot, React and PostgreSQL." />
+    <meta name="author" content="Sartaj Sadat" />
+    <meta name="keywords" content="Sartaj Sadat, Software Engineer, Full-Stack Developer, Spring Boot, React, Java, PostgreSQL, DevOps, AI, Machine Learning, University Lecturer, Portfolio" />
+    <meta name="theme-color" content="#06080d" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="apple-touch-icon" href="%BASE_URL%favicon.svg" />
+    <link rel="manifest" href="%BASE_URL%site.webmanifest" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sartaj Sadat — Software Engineer & Full-Stack Developer" />
+    <meta property="og:description" content="Turning complex ideas into powerful digital solutions. Enterprise systems, full-stack development, DevOps and university teaching." />
+    <meta property="og:image" content="%BASE_URL%og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sartaj Sadat — Software Engineer" />
+    <meta name="twitter:description" content="Turning complex ideas into powerful digital solutions." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sartaj Sadat",
+        "jobTitle": "Software Engineer",
+        "description": "Software Engineer, Full-Stack Developer, AI/ML Enthusiast, DevOps Practitioner and University Lecturer.",
+        "worksFor": [
+          { "@type": "GovernmentOrganization", "name": "Ministry of Telecommunication" },
+          { "@type": "CollegeOrUniversity", "name": "Khana-e-Noor University" }
+        ],
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Nangarhar University" },
+        "sameAs": ["https://github.com/Sartajsadat"]
+      }
+    </script>
+
+    <!-- Apply saved theme before paint to avoid a flash -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t !== 'light' && t !== 'dark') t = 'dark';
+          document.documentElement.dataset.theme = t;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="padding:2rem;font-family:sans-serif">Sartaj Sadat — Software Engineer. Please enable JavaScript to view this portfolio.</p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
