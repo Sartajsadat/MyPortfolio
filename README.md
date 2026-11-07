@@ -71,8 +71,9 @@ Content shapes are defined in `src/types/content.ts`. Set `VITE_API_BASE_URL` an
 
 ### GitHub Pages (included)
 
-`.github/workflows/deploy.yml` builds and deploys on every push to `main`.
+`.github/workflows/deploy.yml` deploys **only when you run it manually** — pushing code does not publish anything.
 One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+To publish: **Actions → Deploy to GitHub Pages → Run workflow**.
 The site will be served at `https://<user>.github.io/MyPortfolio/`.
 
 ### Other hosts (Netlify, Vercel, Nginx/Apache)
